@@ -1,0 +1,54 @@
+
+
+<html>
+   <header>
+      <h1 id="title">
+         Survey Form
+      </h1>
+   </header>
+   <body>
+      <p id="description">Hello Everyone !! I am designing survey form.
+      </p>
+      <form id="survey-form" class="form">
+         <div class="form-group">   <label id="name-label">Enter name</label>
+            <input type="text" id="name" placeholder="Enter Name" required/>
+         </div>
+         <div class="form-group">
+         <label id="email-label">Enter an Email
+         </label>
+         <input type="email" id="email" placeholder="Enter an Email" required/></div>
+         <div class="form-group"><label id="number-label">   Please enter number</label> <input type="number" required  id="number" min="0" max="30000" placeholder="Enter number">
+         </div>
+         <div class="form-group">
+            <label >Choose option :
+            <label>
+               <select id="dropdown">
+                  <option value="test1" selected>test1</option>
+                  <option value="test2">test2</option>
+                  <option value="test3">test3</option>
+               </select>
+         </div>
+         <div class="form-group">
+         <input type="radio" value="Male" name="gender">Male
+         <input type="radio" value="Female" name="gender"> Female
+         </div>
+         <div class="form-group">
+         <label id="lbl">Select Languages you know :
+         </label><br>
+         <input type="Checkbox" value="Eng"> English
+         <input type="Checkbox" value="Mar"> Marathi
+         <input type="Checkbox" value="Hin"> Hindi
+         </div>
+         <div class="form-group">
+         <textarea multiline="true"></textarea>
+         </div>
+         <div class="form-group">
+         <button id="submit" class="submit-button">
+         <input type="submit"
+            name="submit">
+         </button>
+         </div>
+      </form>
+   </body>
+</html>
+
